@@ -1,0 +1,343 @@
+@media (min-width: 320px) and (max-width: 767px){ 
+
+    nav.navbar.navbar-expand-lg.navbar-light {
+        padding: 15px;
+    }
+    a#navbarDropdown {
+        padding-left: 0px;
+    }
+    i.fa {
+        margin-left: 0px;
+    }
+    button#btn {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 80px;
+    }
+    .mb-3 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .main-boxsite p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .parent-para2 {
+        align-items: center;
+    }
+    a.btn.btn-primary.mb-2 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 150px;
+    }
+    .main-img {
+        margin-top: 0px;
+    }
+    h1.section-title {
+        font-size: 21px;
+    }
+    .section-header p {
+        text-align: justify;
+        text-align-last: center;
+        font-size: 15px;
+    }
+    img.screenshot {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    button.btn-more {
+        font-size: 16px;
+        padding: 8px 0px;
+        width: 150px;
+    }
+    h2.best {
+        font-size: 20px;
+    }
+    p.online-para {
+        text-align: justify;
+        text-align-last: center;
+        font-size: 14px;
+    }
+    p.text-centerr {
+        font-size: 14px;
+    }
+    .col-md-3.bott {
+        padding-bottom: 40px;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    section.sect5 {
+        padding-top: 25px;
+    }
+    h2.best {
+        font-size: 21px;
+    }
+    p.ourWeb1 {
+        font-size: 15px;
+        text-align: justify;
+        text-align-last: center;
+    }
+    .main-boxShadow {
+        margin-bottom: 25px;
+    }
+    h2.simple {
+        font-size: 19px;
+    }
+    .needpara {
+        text-align: justify;
+        font-size: 15px;
+        text-align-last: center;
+    }
+    .para-custo {
+        font-size: 19px;
+    }
+    h2.section-title {
+        font-size: 20px;
+    }
+    .section-content p {
+        font-size: 16px;
+    }
+    a.btn.btn-primary.b-card-landing-cta {
+        margin-right: auto;
+        display: block;
+        width: 150px;
+        margin-left: auto;
+    }
+    .collapsed {
+        padding-left: 28px;
+        font-size: 14px;
+    }
+    div#collapseOne {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .section-content p {
+        font-size: 14px;
+    }
+    div#collapseTwo {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    div#collapseThree {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    div#collapseFour {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    div#collapseFive {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    div#collapseSix {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    div#collapseSeven {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    /* business card media css code open */
+    h1.mbbap-3 {
+        font-size: 47px;
+        font-weight: 700;
+        color: #333;
+    }
+    h2.section-title1 {
+        font-size: 18px;
+    }
+    p.yourrr {
+        font-weight: 400;
+        text-align: left;
+    }
+    h3.mb-22 {
+        text-align: left;
+    }
+    /* business card media css code close */
+
+
+
+    /* envelope card media css code open */
+    .img-fluid {
+        margin-top: 30px;
+    }
+        /* envelope card media css code close */
+        h1.top-para {
+            font-size: 33px;
+        }
+        button.generateWrapper {
+            margin-left: 0px;
+        }
+        input.keywordInput {
+            width: 60%;
+        }
+        .navbar-input {
+            align-items: center;
+            text-align: left;
+        }
+        .container.container-small {
+            padding: 0 0px;
+        }
+        .container.container-small {
+            padding: 0 30px;
+        }
+        input.keywordInputtt {
+            width: 60%;
+        }
+        button.generateWrappper {
+            top: 26%;
+            margin-left: 0;
+        }
+        .section-grapphics img {
+            width: 100%;
+        }
+        h2.section-titlee {
+            font-size: 30px;
+        }
+        .nav-pills .nav-link {
+            font-size: 12px;
+        }
+        .input-enter-content {
+            padding: 0px 15px;
+        }
+        .para-brand {
+            text-align: left;
+        }
+        .headLogo-design h2 {
+            margin-top: 15px;
+        }
+        .sect {
+            padding: 0 !important;
+        }
+        .hding15 {
+            margin-left: 0;
+        }
+        .MarkersTools {
+            padding: 0;
+            font-size: 13px;
+        }
+        .content5 {
+            margin-bottom: 30px;
+        }
+        .para9 {
+            text-align: center;
+        }
+        .content7 {
+            text-align: center;
+        }
+        a.fa.fa-youtube {
+            font-size: 20px;
+        }
+        a.fa.fa-twitter {
+            font-size: 20px;
+        }
+        a.fa.fa-pinterest {
+            font-size: 20px;
+        }
+        a.fa.fa-facebook {
+            font-size: 20px;
+        }
+        a.fa.fa-linkedin {
+            font-size: 20px;
+        }
+        .Footerbottom {
+            display: none !important;
+        }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+
+
+    .hding15 {
+        margin-left: 0;
+    }
+    .MarkersTools {
+        padding: 0.42rem 0;
+    }
+    a#navbarDropdown {
+        padding-left: 0px;
+    }
+    i.fa {
+        margin-top: 7px;
+        margin-left: 0px;
+    }
+    button#btn {
+        margin-left: 0px;
+        width: 16%;
+        margin-top: 10px;
+    }
+    .main-img {
+        width: 100%;
+        margin-top: 135px;
+    }
+    .mb-3 {
+        font-size: 50px;
+    }
+    p.ourWeb1 {
+        text-align: justify;
+        text-align-last: center;
+    }
+    .needpara {
+        text-align-last: center;
+    }
+    img.img-responsive {
+        margin-top: 100px;
+    }
+    h4.pocket {
+        font-size: 16px;
+    }
+
+
+
+div#collapseOne {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+div#collapseTwo {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+div#collapseThree {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+div#collapseFour {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+div#collapseFive {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+div#collapseSix {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+div#collapseSeven {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+.container.container-small {
+    padding: 0 0px;
+}
+
+.section-headerrr {
+    margin-top: 0px;
+}
+img.qr-img-11 {
+    margin-top: 50px;
+}
+.section-grapphics img{
+    width: 100% !important;
+    margin-top: 200px;
+}
+}

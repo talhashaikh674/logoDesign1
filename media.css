@@ -1,0 +1,487 @@
+@media (min-width: 320px) and (max-width: 767px){
+
+    .sect {
+        padding: 0px;
+    }
+
+    .hding br {
+        display: none;
+    }
+
+    .hding {
+        font-size: 24px;
+    }
+
+    .para {
+        font-size: 12px;
+    }
+
+    .form-control {
+        padding: 20px 150px 20px 10px !important;
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+
+    form.form-inline.my-2.my-lg-0 {
+        margin: 0;
+    }
+
+    #btn2 {
+        padding: 10px 8px;
+        font-size: 12px;
+        margin: 0 0 0 180px;
+    }
+
+    .mainheader {
+        background-color: transparent;
+        height: auto;
+    }
+
+    .sect2 {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .mainheader img {
+        margin: 0px auto;
+        max-height: 230px;
+        padding-right: 0px;
+        padding-left: 45px;
+    }
+
+    .sect3 {
+        display: none;
+    }
+
+    .hding3 {
+        font-size: 15px;
+    }
+
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 74%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .flipcontent {
+        margin-top: 0px;
+    }
+
+    .para2 {
+        font-size: 14px;
+    }
+
+    .webimges {
+        margin-top: 20px;
+    }
+
+    p.para5 {
+        font-size: 15px;
+    }
+
+    .anchor {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #e78341 !important;
+        border-color: #e78341 !important;
+    }
+
+    .customcontent1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .cutomhding br {
+        display: none;
+    }
+
+    .cutomhding {
+        font-size: 25px;
+        margin-bottom: 10px !important;
+    }
+
+    .cutomhding1 br {
+        display: none;
+    }
+
+    .cutomhding1 {
+        font-size: 18px !important;
+    }
+
+    .custom-design-mockup {
+        margin: 20px 0 0 -15px;
+    }
+
+    .cutomhding2 {
+        font-size: 18px;
+    }
+
+    .custompara {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .cutomhding4 br {
+        display: none;
+    }
+
+    .cutomhding4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .parentdiv3 {
+        margin-top: 25px;
+    }
+
+    .facebook-cover-img {
+        width: 100% !important;
+    }
+
+    .letterheadhding {
+        font-size: 35px;
+    }
+
+    .socialhedaerhding {
+        font-size: 18px;
+    }
+
+    .par16 {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    a.fa.fa-youtube {
+        font-size: 20px;
+    }
+    a.fa.fa-twitter {
+        font-size: 20px;
+    }
+    a.fa.fa-pinterest {
+        font-size: 20px;
+    }
+    a.fa.fa-facebook {
+        font-size: 20px;
+    }
+    a.fa.fa-linkedin {
+        font-size: 20px;
+    }
+    .hding15 {
+        margin-left: 0 !important;
+    }
+    .MarkersTools {
+        padding: 0;
+        font-size: 13px;
+    }
+    .para9 {
+        text-align: center;
+    }
+    .content5 {
+        margin-bottom: 30px;
+    }
+    .content6 {
+        margin: 0 0px 0 10px;
+    }
+    .content7 {
+        text-align: center;
+    }
+    .mockupdesignhdinng {
+        font-size: 30px;
+    }
+    .printservicehding {
+        font-size: 40px;
+    }
+    .printservicehding1 {
+        font-size: 21px;
+    }
+    .printservicediv2 {
+        margin-top: 20px;
+    }
+    .para20 {
+        font-size: 14px;
+    }
+    img#mbimg {
+        width: 100%;
+    }
+    .domain--mockup-img {
+        display: none;
+    }
+    .domainhding1 {
+        font-size: 30px;
+    }
+    .para21 {
+        font-size: 14px;
+    }
+    .para22 {
+        font-size: 14px;
+    }
+    .para23 {
+        font-size: 14px;
+    }
+    .domainhding1 {
+        font-size: 28px;
+    }
+    .para11 {
+        padding: 0 !important;
+    }
+    .img-responsive {
+        margin: 20px 0 0 0;
+    }
+    h2.section-title1 {
+        font-size: 18px;
+    }
+    .premium-cottonimg {
+        margin-top: 20px;
+    }
+    .fagpara {
+        font-size: 14px;
+    }
+    h2.section-title.mb-5 {
+        font-size: 18px;
+    }
+    .divpara p {
+        font-size: 14px;
+    }
+    /* img.img-responsive.center-block.hidden-sm {
+        margin-top: 20px;
+    } */
+
+    p {
+        font-size: 14px;
+    }
+    #what-we-doooimgg {
+        display: none;
+    }
+    h2.section-title.text-center {
+        font-size: 18px;
+    }
+    .protfolio-container ul li img {
+        width: 100% !important;
+    }
+    .protfolio-container .columns li {
+        width: 50% !important;
+    }
+    .section-title {
+        font-size: 18px;
+    }
+    ul.list-inline.text-center {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .aboutpara1 {
+        font-size: 14px;
+    }
+    .Footerbottom1 {
+        border-top: 0 !important;
+    }
+    .hding11 {
+        font-size: 18px;
+    }
+    .howpara {
+        font-size: 14px;
+    }
+    .howpara1 {
+        font-size: 14px;
+    }
+    .howpara2 {
+        font-size: 14px;
+    }
+    #step123img {
+        margin-top: 50px;
+    }
+    #maplgrt {
+        padding-left: 35px !important;
+    }
+    .logoquizdiv {
+        gap: 5px;
+        flex-direction: column;
+    }
+    .logoquizhding1 {
+        text-align: center;
+    }
+    .logoquizhding {
+        font-size: 18px;
+    }
+    .Mediadiv {
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mediaimg123 {
+        margin-bottom: 0;
+    }
+    .bordermedia {
+        margin-bottom: 0 !important;
+    }
+    .hding7 {
+        font-size: 18px;
+    }
+    .LogoDesignhding {
+        font-size: 22px;
+    }
+    .gallery-filter {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    div#collapseFour {
+        padding-bottom: 30px;
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+    }
+    div#collapseThree {
+        padding-left: 0 !important;
+        padding-top: 10px;
+    }
+    .panel.panel-default {
+        padding: 30px 20px !important;
+    }
+    div#collapseOne {
+        padding-left: 0;
+    }
+    div#collapseFive {
+        padding-left: 0;
+    }
+    div#collapseTwo {
+        padding-left: 0;
+    }
+    .para25 {
+        font-size: 14px;
+    }
+    .logomarkerhding {
+        font-size: 30px;
+    }
+    div#logosecxp {
+        padding: 0px 0 20px 34px !important;
+    }
+    h2.section-title br {
+        display: none;
+    }
+    h2.section-title {
+        font-size: 25px !important;
+    }
+    .Footerbottom {
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .hding15 {
+        margin-left: 0;
+    }
+    .MarkersTools {
+        padding: .42rem 0;
+    }
+    .domaindiv {
+        margin-top: 0 !important;
+    }
+    .hding br {
+        display: none;
+    }
+    img.icons {
+        width: 100% !important;
+    }
+    .content1 {
+        gap: 12px;
+    }
+    .hding5 {
+        margin-top: 100px !important;
+    }
+    .parentdiv3 {
+        margin: 15;
+    }
+    p.card-body {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .mockupdesignhdingimges {
+        margin-top: 120px;
+    }
+    .print-mockup-img {
+        margin-top: 50px;
+    }
+    .print-services-img {
+        margin-top: 100px;
+    }
+    img#mbimg {
+        width: 100%;
+        margin-top: 100px;
+    }
+    img#immgg {
+        margin-top: 200px;
+    };
+    .letterheadhding {
+        font-size: 46px;
+    }
+    .socialhedaerhding {
+        padding: 0 23px;
+    }
+    .par16 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .img-1 img {
+        width: 100%;
+    }
+    .img-2 img {
+        width: 100%;
+    }
+    .img-3 img {
+        width: 100%;
+    }
+    .img-4 img {
+        width: 100%;
+    }
+    .img-5 img {
+        width: 100%;
+    }
+    .img-6 img {
+        width: 100%;
+    }
+    .img-7 img {
+        width: 100%;
+    }
+    .img-8 img {
+        width: 100%;
+    }
+    .img-9 img {
+        width: 100%;
+    }
+    .img-10 img {
+        width: 100%;
+    }
+    .howcontentmain {
+        margin-top: 0;
+    }
+    .insighthding {
+        font-size: 20px;
+        padding: 5px 12px;
+    }
+    .insightspara {
+        padding: 5px 10px;
+        text-align: justify;
+    }
+
+}

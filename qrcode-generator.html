@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr-code</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="mediaa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-------------------------------------- navbar code open -------------------------------------->
+
+    <section class="sect">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"><img class="Logo" src="img/Logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown active">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Premium Logo
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="CustomLogo.html">Custom Logo</a>
+                                        <a class="dropdown-item" href="LogoMarker.html">Logo Contest</a>
+                                        <!-- <div class="dropdown-divider"></div> -->
+                                    </div>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="LogoMarker.html">Logo Marker<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="website-builder.html">Website Builder<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown active">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        More Designs
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="business-card.html">Businees Card Design</a>
+                                        <a class="dropdown-item" href="LetterHead.html">Letterhead Design</a>
+                                        <a class="dropdown-item" href="envelop.html">Envelop Design</a>
+                                        <a class="dropdown-item" href="SocialHeaderDesign.html">Social Header Design</a>
+                                        <a class="dropdown-item" href="MockupDesign.html">Mockup Design</a>
+                                        <a class="dropdown-item" href="qrcode-generator.html">QR Code Generator</a>
+                                        <a class="dropdown-item" href="PrintService.html">Print Services</a>
+                                        <a class="dropdown-item" href="PrivacyPolicy.html">Promotional Products</a>
+                                        <a class="dropdown-item" href="GetDomain.html">Get Domain</a>
+                                        <a class="dropdown-item" href="business-name-generator.html">Businees Name
+                                            Generator</a>
+                                        <!-- <div class="dropdown-divider"></div> -->
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="heart" href="#"><i class="fa fa-heart"></i></a>
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">LOGIN</button>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------- navbar code close ------------------------------------->
+
+
+    <!-- ============================Section 18 code open====================================== -->
+
+
+    <section class="sectbuss5">
+        <div class="container bg-accentt py-4 rounded-3">
+            <div class="section-header text-center mb-3">
+                <h2 class="section-titlee">Try Our FREE QR Code Generator with a Logo</h2>
+            </div>
+            <div class="col-md-8 xs-p-0">
+                <div id="qr-nav" class="nav nav-pills nav-fill QRcode-nav-block mb-3">
+                    <span id="URL" class="nav-link active" qr-index="0">URL</span>
+                    <span id="TEXT" class="nav-link" qr-index="1">TEXT</span>
+                    <span id="PHONE" class="nav-link" qr-index="2">PHONE</span>
+                    <span id="FACEBOOK" class="nav-link" qr-index="3">FACEBOOK</span>
+                    <span id="TWITTER" class="nav-link" qr-index="4">TWITTER</span>
+                    <span id="YOUTUBE" class="nav-link" qr-index="5">YOUTUBE</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-enter-content">
+                        <div class="innerentercontent">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#"
+                                aria-expanded="false" aria-controls="QRcodeEnterContent"
+                                data-qrcodetabsid="QRcodeEnterContent" class="collapseddd">
+                                Enter Content
+                            </a>
+                            <label class="url-label" for="url-input">Your URL</label>
+                            <input placeholder="http://" id="url-input" type="text">
+                        </div>
+                    </div>
+                    <div class="input-enter-content">
+                        <div class="innerentercontent">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#"
+                                aria-expanded="false" aria-controls="QRcodeEnterContent"
+                                data-qrcodetabsid="QRcodeEnterContent" class="collapseddd">
+                                Color
+                            </a>
+                        </div>
+                    </div>
+                    <div class="input-enter-content">
+                        <div class="innerentercontent">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#"
+                                aria-expanded="false" aria-controls="QRcodeEnterContent"
+                                data-qrcodetabsid="QRcodeEnterContent" class="collapseddd">
+                                Add Logo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="input-enter-content">
+                        <div class="innerentercontent">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#"
+                                aria-expanded="false" aria-controls="QRcodeEnterContent"
+                                data-qrcodetabsid="QRcodeEnterContent" class="collapseddd">
+                                Pattern
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="QRcode-canvas-block-parent bg-white p-4 rounded-3">
+                            <img class="downloadqr" src="imgg/download.png" alt="">
+                            <label class="qr-size" for="qr-size">Change download Dimension
+                                <span id="sizeSpan">360px x 360px</span>
+                            </label>
+                            <input class="form-range" oninput="$('#sizeSpan').html(this.value+'px x '+this.value+'px')"
+                                step="1" min="360" max="1000" id="qr-size" name="qr-size" value="360" type="range">
+                            <div class="QRcode-action-block">
+                                <button id="reset-btn" class="btn btn-outline-primary" type="button">Reset</button>
+                                <button id="download-btn" class="btn btn-primary" type="button">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================Section 18 code close====================================== -->
+
+
+
+
+    <!-- ============================Section 19 code open====================================== -->
+
+    <section class="sect19">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="qr-img-11" src="imgg/qr-img-1.png" alt="">
+                </div>
+                <div class="col-md-7">
+                    <div class="section-headerrr">
+                        <h2>Create Free QR Codes with Dynamic QR Code Generator</h2>
+                        <p>Say more with less with a free QR code design using our free QR code generator. With a QR
+                            code you can encode and show off your brand information in a tidy graphic. The QR code make
+                            your brand accessible for customers anywhere and anytime, whether online or offline by just
+                            scanning it and it automatically point to the information they want.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================Section 19 code close====================================== -->
+
+
+
+    <!-- ============================Section 20 code open====================================== -->
+
+    <section class="sect20">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2 class="para-shouldYou">Why You Should Get a QR Code Design</h2>
+                    <p>
+                        QR code is the latest trend to advertise your brand. Whether it is a business card, T-shirt or
+                        on mobile app, a QR code is easy for customers or potential customers to get brand related
+                        information by simply scan of your QR code. Here’s why you should get a QR code design:
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================Section 20 code close====================================== -->
+
+
+
+
+    <!-- ============================Section 21 code open====================================== -->
+
+
+    <section class="sectbuss5">
+        <div class="container bg-accentt py-4 rounded-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <div
+                        class="teaser card bg-white rounded-3 mb-3 border-0 shadow-hover p-4 h-100 justify-content-center">
+                        <img src="imgg/icon-free-qr-code.png" alt="">
+                        <h3 class="mb-22">Free QR Code</h3>
+                        <p class="yourrr">Our QR code generator offers free branded QR code design that you can get
+                            instantly. No hidden cost, we promise. Create your custom QR code design by just adding your
+                            company logo and information, and clicking "Download".</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="teaser card bg-white rounded-3 mb-3 border-0 shadow-hover p-4 h-100 justify-content-center">
+                        <img src="imgg/icon-no-signup.png" alt="">
+                        <h3 class="mb-22">No Sign Up</h3>
+                        <p class="yourrr">That’s right! You don’t need to even sign up to get your free QR code with a
+                            logo. It’s as easy as 1-2-3 when you choose LogoDesign.Net’s QR code generator to create a
+                            QR code for your company. Just add your content and download instantly</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="teaser card bg-white rounded-3 mb-3 border-0 shadow-hover p-4 h-100 justify-content-center">
+                        <img src="imgg/icon-free-logo-design.png" alt="">
+                        <h3 class="mb-22">Free Logo Design</h3>
+                        <p class="yourrr">And did we mention free logo design? When you use our QR code generator you
+                            can choose any logo design from our free logo maker or add your own logo to make a custom QR
+                            code design tailored to your brand, for free.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================Section 21 code close====================================== -->
+
+
+
+    <!-- ============================Section 22 code open====================================== -->
+
+    <section class="sect22">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="headLogo-design">
+                        <h2>How to Create a Free QR Code with a Logo Design</h2>
+                        <p>
+                            Creating a free QR code for your brand is easy when you use our QR code generator. You don’t
+                            need to graphic design or technology skills. With just a few clicks you can get your QR code
+                            under a minute. Just follow these steps.
+                        </p>
+                        <div class="row">
+                            <div class="col-12 d-flex align-items-start mb-3">
+                                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                                    <h2>01</h2>
+                                </div>
+                                <div class="para-brand">
+                                    <h3>Add Brand Information</h3>
+                                    <p>Get the domain that you want for your brand whether you are launching a new
+                                        online business or a brick-and-mortar organization transitioning to an online
+                                        presence.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex align-items-start mb-3">
+                                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                                    <h2>02</h2>
+                                </div>
+                                <div class="para-brand">
+                                    <h3>Branding</h3>
+                                    <p>Select your brand color and add a logo to make a distinctive QR code that is
+                                        recognizable from far away. You can even choose a unique pattern to match with
+                                        your brand style and look.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex align-items-start mb-3">
+                                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                                    <h2>03</h2>
+                                </div>
+                                <div class="para-brand">
+                                    <h3>Download</h3>
+                                    <p>Once you're satisfied with the type of information you want encoded, download the
+                                        QR code image. Use your new free QR code with a logo on any type of branding
+                                        material you like.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="section-grapphics">
+                        <img src="imgg/qr-img-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================Section 22 code close====================================== -->
+
+
+
+
+
+    <!-- ============================Section 23 code open====================================== -->
+
+
+    <section class="sect23">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-grapphics">
+                        <img src="imgg/qr-img-3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="headLogo-design">
+                        <h2>The Best Dynamic QR Code Generator Online</h2>
+                        <p>
+                            in your QR code on the fly. If you make a mistake, no problem. Reset and try it again until
+                            you get the perfect QR code image that you can be proud of for your brand.
+                        </p>
+                        <div class="row">
+                            <div class="col-12 d-flex align-items-start mb-3">
+                                <div class="para-brand">
+                                    <h3>QR Code for Personal or Commercial Use</h3>
+                                    <p>You can generate a free QR code for personal or commercial use. There is no
+                                        restriction on how many times you create a QR code or however you use it. Use
+                                        the QR code image to act as your vcard contact point, SMS, or to access your
+                                        website URL. You’re free to use it anyway you like.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex align-items-start mb-3">
+                                <div class="para-brand">
+                                    <h3>Compatible with QR Readers</h3>
+                                    <p>Our QR codes are compatible with almost all types of QR readers including Barcode
+                                        Scanner on Android, i-nigma on iOS, or QR Code Scanner on Firefox OS etc. All
+                                        you have to do is point your smartphone or device camera to the free QR code to
+                                        scan to access the embedded information.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex align-items-start mb-3">
+                                <div class="para-brand">
+                                    <h3>High Resolution QR Codes</h3>
+                                    <p>When you use our QR code generator, you are guaranteed to get high resolution QR
+                                        code design files in PNG. This is important, especially if you plan to use your
+                                        QR code in large print materials like shop front, banners or billboards.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================Section 23 code close====================================== -->
+
+
+    <!-- ============================Toggle code open====================================== -->
+
+
+    <section class="sect12">
+        <div class="container">
+            <div class="section-headerr text-center mb-3">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <h2 class="section-titleee">Frequently Asked Questions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                            href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+                                            class="collapsed">
+                                            <p class="crateee"> What is a QR code?</p>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingOne" aria-expanded="false" style="height: 30px;">
+                                    <div class="panel-body">
+                                        <p>A business card maker is an online business card design software that
+                                            features card templates for users to select and edit.
+                                            The best thing about a business card maker is that you design your own
+                                            visiting card without the middle person – graphic designer. Since all the
+                                            designs featured in a business card maker are professionally designed, they
+                                            are perfect for use as personal, business or even nonprofit organization
+                                            visiting cards.
+                                            LogoDesign.net’s free business card maker tool works in the same way
+                                            featuring tons of templates ranging from business card designs for event
+                                            management, IT company, gardening or lawn care professionals, real estate
+                                            agents, and more.
+                                            You can check out our free business card maker today.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            How does a QR code generator works?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingTwo" aria-expanded="false">
+                                    <div class="panel-body">
+                                        <p>Designing a visiting card with a business card maker is super-easy. <br>
+                                            Start by selecting the number of cards, finish and paper stock quality you
+                                            want for your business card printing. Then select a favorite template design
+                                            from the business card maker gallery, and move to the studio where you can
+                                            customize your visiting card design. <br>
+                                            Our customizable business card designs allow you to change fonts, edit
+                                            names, contact information and even add your own logo by uploading it from
+                                            your computer. And if you don’t have one, try our logo maker to get a free
+                                            logo. <br>
+                                            Designing your own business card this way is easy and requires only a few
+                                            minutes of your time, and you can even do it in the comfort of your own
+                                            home.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            How does the QR code have my information?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingThree" aria-expanded="false">
+                                    <div class="panel-body">
+                                        <p>When you use Logo Design’s website creator, you have the option to try and
+                                            create your own website design by using the multitude of website templates
+                                            available in our gallery. <br><br>
+                                            You are free to create a website as many times and use as many design
+                                            templates as you like. There are no charges attached to it. <br><br>
+                                            Once you are satisfied with your edits and customization, and feel you are
+                                            ready to publish your website, that is, you want to make your website live
+                                            for the public to access it, then you need to pay a nominal price of $14.99.
+                                            For more details on packages available you can <a href="#">click here</a>.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            How can I create a QR code for free?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingFour" aria-expanded="false" style="height: 30px;">
+                                    <div class="panel-body">
+                                        <p>Of course! Once you publish your website you can definitely edit it as and
+                                            when you like it. Since you will have subscribed to a paid plan, you will
+                                            get unlimited edit rights including changing your content, images, colors,
+                                            fonts and more. <br><br>
+                                            Our website creator is flexible and allows users like you to have the
+                                            freedom to grow their brand and business online anytime they want. This is
+                                            only possible when you get unlimited access to your website. Try our free
+                                            website maker now!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFive">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                            Can I edit the information in my QR code?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingFive" aria-expanded="false">
+                                    <div class="panel-body">
+                                        <p>
+                                            The short answer is yes, we do. <br><br>
+                                            Since ecommerce website design is a complex process, it’s not easy for
+                                            non-technical persons to create a website design for their ecommerce store
+                                            to simply launch it instantly. For this reason, at the moment we only offer
+                                            custom website design for ecommerce business owners. <br><br>
+                                            You can learn more about how to create a <a href="#">custom website
+                                                design</a> for your ecommerce store by contacting our support and sales
+                                            team directly at this number 844-232-4816, email to <a
+                                                href="mailto:support@logodesign.net">support@logodesign.net</a>, or
+                                            simply chat with one of our online chat support staff members.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <br><a href="/qrcode-generator" class="btn btn-primary">Get a QR code now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================Toggle code close====================================== -->
+
+
+    <!--------------------------------------------- Footer code open --------------------------------------------->
+
+    <section class="Footersect">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-4">
+                    <div class="content5">
+                        <a href="index.html"><img class="Footerlogo" src="img/Logo.png" alt=""></a>
+                        <p class="para8">We are a SaaS company that offers graphic design maker tools for startups,
+                            small
+                            business owners, website designers, and online entrepreneurs. We make branding
+                            accessible and affordable. Try our tools today!</p>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-8">
+                    <div class="row">
+
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-4">
+                            <div class="content6">
+                                <h5 class="hding15"> DIY Design Maker Tools </h5>
+                                <ul class="nav flex-column">
+                                    <li class="MarkerLI"><a class="MarkersTools" href="LogoMarker.html">Logo Marker</a>
+                                    </li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="CustomLogo.html">Custom Logo
+                                            Design</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="business-card.html">Businees Card
+                                            Design</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="LetterHead.html">Letter Head
+                                            Design</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="envelop.html">Envelop Design</a>
+                                    </li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="LogoMarker.html">T-Shirt
+                                            Design</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="SocialHeaderDesign.html">Social
+                                            Header Design</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="ContactUs.html">Gaming Logo
+                                            Marker</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="PrintService.html">Print
+                                            Services</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="LogoQuiz.html">Promotional
+                                            Products</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="LogoMarker.html">Al Logo
+                                            Marker</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-4">
+                            <div class="content6">
+                                <h5 class="hding15"> Other Tools </h5>
+                                <ul class="nav flex-column">
+                                    <li class="MarkerLI"><a class="MarkersTools"
+                                            href="business-name-generator.html">Businees Name</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="website-builder.html">Website
+                                            Builder</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="GetDomain.html">Get Domian</a>
+                                    </li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="MockupDesign.html">Mockup
+                                            Design</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="qrcode-generator.html">QR Code
+                                            Generator</a></li>
+                                </ul>
+                            </div>
+                            <div class="content6">
+                                <h5 class="hding15"> About Company </h5>
+                                <ul class="nav flex-column">
+                                    <li class="MarkerLI"><a class="MarkersTools" href="Aboutus.html">About Us</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="Howitworks.html">How it Works</a>
+                                    </li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="Faq.html">FAQ</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="SiteMap.html">Sitemap</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="ContactUs.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-4">
+                            <div class="content6">
+                                <h5 class="hding15"> Resources </h5>
+                                <ul class="nav flex-column">
+                                    <li class="MarkerLI"><a class="MarkersTools" href="LogoQuiz.html">Logo Quiz</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="Media.html">Media</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="LogoDesignTutorials.html">Logo
+                                            Design Tutorials</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="Insights.html">Insights</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="Articles.html">Articles</a></li>
+                                    <li class="MarkerLI"><a class="MarkersTools" href="Scholarship.html">Scholraship</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="Footerbottom">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p class="para9">© 2023 LogoDesign</p>
+                        </div>
+                        <div class="col-12 col-md-6 text-right">
+                            <div class="content7">
+                                <a class="termspolicy" href="index.html">Terms & Condition</a>
+                                <span>|</span>
+                                <a class="termspolicy" href="PrivacyPolicy.html">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------------------- Footer code close -------------------------------------------->
+
+
+</body>
+<script type="text/javascript" src="jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</html>

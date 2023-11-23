@@ -1,0 +1,2724 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins"!important;
+}
+
+/* ------------------------------------ Sect Popup css open ------------------------------------ */
+
+.sectpopup {
+    padding: 50px 0;
+}
+.sectpopup .row {
+    align-items: center !important;
+}
+
+
+.login-defaultimg {
+    width: 100%;
+}
+
+.popuphdinG {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+    margin: 0 0 10px 0;
+}
+.input-field {
+    border: 0;
+    padding: 5px 25px 5px 8px;
+    border-bottom: 1px solid #97a0b3 !important;
+    font-size: 16px;
+    width: 93% !important;
+    margin: 10px 0 20px 0;
+    color: #7a7d84 !important;
+}
+#popupemail {
+    font-size: 16px !important;
+    color: #7a7d84 !important;
+}
+.FORGETPASSWORD {
+    color: #333;
+    float: right;
+}
+.FORGETPASSWORD:hover {
+    text-decoration: none;
+    color: #646bd9;
+}
+.formdivv {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    padding: 30px 30px;
+    border-radius: 10px !important;
+}
+.orr {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #909090;
+}
+.accouttt {
+    text-align: center;
+}
+.parapopup {
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 16px;
+}
+.popupdiv2 {
+    padding: 20px 0;
+}
+.Facebookbtn {
+    font-size: 18px;
+    color: #fff;
+    background-color: #385a99;
+    line-height: 1;
+    border-radius: 4px;
+    border: 1px solid #385a99;
+    padding: 8px 18px;
+    letter-spacing: 1px;
+}
+#faceboobpopup {
+    font-size: 18px;
+    color: #fff;
+    /* background-color: #fff; */
+    text-align: center;
+}
+#googlepopup {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.googlebtn {
+    font-size: 18px;
+    color: #fff;
+    background-color: #de4b39;
+    line-height: 1;
+    border-radius: 4px;
+    border: 1px solid #de4b39;
+    padding: 8px 32px;
+    letter-spacing: 1px;
+    margin: 10px 0 0 0;
+}
+/* ------------------------------------ Sect Popup css close ------------------------------------ */
+
+
+
+/* ------------------------------------ Navbar css open ------------------------------------ */
+
+img.Logo {
+    width: 100%;
+}
+
+a.nav-link {
+    color: black !important;
+    font-weight: 600;
+    padding-right: 13px !important;
+    padding-left: 13px !important;
+}
+
+a.dropdown-item {
+    color: #000 !important;
+    /* font-size: 16px !important; */
+}
+
+a.nav-link:hover {
+    color: #646bd9 !important;
+    /* transition: 0.5s; */
+}
+
+a.dropdown-item:hover {
+    background-color: #646bd9 !important;
+    color: #fff !important;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    padding: 10px 16px;
+    background-color: #646bd9;
+    border-color: #646bd9;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #646bd9;
+}
+
+.heart {
+    color: #404040;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.heart:hover {
+    color: #404040;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    /* display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto; */
+    justify-content: center;
+}
+
+.sect {
+    padding: 30px;
+    background-color: #f6faff;
+}
+
+/* ------------------------------------ Navbar css close ------------------------------------ */
+
+
+
+/* ------------------------------------ Section 1 css open ------------------------------------ */
+
+.sect1 {
+    padding: 60px 0 42px 0;
+    background-color: #f6faff;
+}
+
+.hding {
+    font-size: 47px;
+    font-weight: 700;
+    color: #333;
+}
+
+.para {
+    margin-bottom: 1.5rem !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 20px 350px 20px 10px !important;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    position: absolute;
+    font-size: 16px !important;
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#btn2 {
+    padding: 10px 20px;
+    background-color: #646bd9;
+    border-color: #646bd9;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    margin: 0 0 0 400px;
+}
+
+form.form-inline.my-2.my-lg-0 {
+    margin: 0 0 0 40px;
+}
+
+/* ------------------------------------ Scetion 1 css close ------------------------------------ */
+
+
+/* ------------------------------------ Scetion 2 css open ------------------------------------ */
+
+.mainheader{
+    background-image: url(img/Banner.png);
+    background-size: contain;
+    height: 421px;
+    background-repeat: no-repeat;
+}
+
+.mainheader img {
+    margin: 0px auto;
+    max-height: 435px;
+    padding-right: 55px;
+}
+
+.sect2 {
+    background: #eef4fc;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------ Scetion 2 css close ------------------------------------ */
+
+
+/* ------------------------------------ Scetion 3 css open ------------------------------------ */
+
+.sect3 {
+    padding: 20px 0 18px 0;
+}
+
+.hding1 {
+    font-weight: 500;
+    color: #333;
+    font-size: 20px;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ------------------------------------ Scetion 3 css close ------------------------------------ */
+
+
+/* ------------------------------------ Scetion 4 css open ------------------------------------ */
+
+.sect4 {
+    background: #eef4fc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hding2 {
+    font-size: 37px;
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+}
+
+.hding3 {
+    color: #646bd9;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.para1 {
+    text-align: center;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 260px;
+    perspective: 1000px;
+    margin-bottom: 20px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 89%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    border-radius: 5px;
+    background-color: hsl(0deg 0% 0% / 76%);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .logoss {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .hding4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 105px;
+}
+
+.flipcontent {
+    margin-top: 40px;
+}
+
+.hding5 {
+    font-size: 26px;
+    color: #646bd9;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* ------------------------------------ Scetion 4 css close ------------------------------------ */
+
+
+/* ------------------------------------ Scetion 5 css open ------------------------------------ */
+
+.sect5 {
+    padding: 60px 0 60px 0;
+}
+
+.maindiv {
+    margin-top: 50px;
+}
+
+.Productimgges {
+    width: 100%;
+}
+
+.hding6 {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Explorelogos {
+    background-color: #646bd9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.Explorelogos:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    color: #fff;
+    text-decoration: none;
+    background-color: #555bb8;
+    border-color: #555bb8;
+}
+
+.hding7 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.line {
+    background-color: #646bd9;
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* ------------------------------------ Scetion 5 css close ------------------------------------ */
+
+
+
+/* ------------------------------------ Scetion 6 css open ------------------------------------ */
+
+.hding8 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sect6 {
+    padding: 60px 0;
+}
+
+.Markerss {
+    color: #000;
+    background-color: #b7d5ea;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.Markerss:hover {
+    color: #fff;
+    background-color: #646bd9;
+    text-decoration: none;
+}
+
+ul.logomarkers {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.section-body {
+    margin: 25px 0 0 0;
+}
+
+/* ------------------------------------ Scetion 6 css close ------------------------------------ */
+
+
+
+
+/* ------------------------------------ Scetion 7 css open ------------------------------------ */
+
+.sect7 {
+    padding: 60px 0 60px 0;
+    background-color: #f6faff !important;
+}
+
+.hding9 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+}
+
+.webimges {
+    max-width: 100%;
+    border-radius: 5px;
+    max-height: 300px;
+}
+
+/* ------------------------------------ Scetion 7 css close ------------------------------------ */
+
+
+/* ------------------------------------ Scetion 8 css close ------------------------------------ */
+
+.sect8 {
+    padding: 60px 0;
+}
+
+.hding10 {
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.businessitemimg {
+    margin-bottom: 1rem !important;
+    width: 75px !important;
+}
+
+.businessitem {
+    margin: 25px 0 0 0;
+}
+
+.Explorelogos2 {
+    background-color: #646bd9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.Explorelogos2:hover{
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    color: #fff;
+    text-decoration: none;
+    background-color: #555bb8;
+    border-color: #555bb8;
+}
+
+/* ------------------------------------ Scetion 8 css close ------------------------------------ */
+
+
+
+/* ------------------------------------ Scetion 9 css open ------------------------------------ */
+
+.sect9{
+    padding: 60px 0;
+}
+
+
+.naturees {
+    color: #000;
+    font-weight: 600;
+}
+
+.naturees:hover {
+    color: #555bb8;
+    text-decoration: none;
+}
+
+.illustration-logo {
+    margin-bottom: 20px;
+}
+
+.parentdiv1 {
+    /* height: 100%; */
+    border: 0;
+    background: #f6faff;
+    border-radius: 10px;
+    padding: 30px;
+    /* min-height: 246px; */
+}
+
+.parentdiv1:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* ------------------------------------ Scetion 9 css close ------------------------------------ */
+
+
+/* ------------------------------------ Scetion 10 css open ------------------------------------ */
+
+.sect10 {
+    padding: 60px 0 60px 0;
+}
+
+.hding11 {
+    color: #333;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.parentdiv2 {
+    background-color: #f5f5f5;
+    padding: 15px 25px;
+    position: relative;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: 25px;
+    min-height: 281px;
+    border-radius: 7px;
+    margin-top: 100px;
+}
+
+.experts-item-img {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: -75px;
+    max-width: 120px;
+}
+
+.hding12 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.hding13 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* ------------------------------------ Scetion 10 css close ------------------------------------ */
+
+
+/* ------------------------------------ Scetion 11 css open ------------------------------------ */
+
+.sect11 {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+}
+
+.hding14 {
+    color: #333;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.maindiv4 {
+    margin-top: 25px;
+}
+
+.brands {
+    width: 100%;
+}
+
+.maindiv5 {
+    margin-top: 50px;
+}
+
+.para7 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* ------------------------------------ Scetion 11 css close ------------------------------------ */
+
+
+/* ------------------------------------ Footer css open ------------------------------------ */
+
+.Footersect {
+    background-color: #f6faff;
+    padding: 40px 0 44px 0;
+}
+
+.Footerlogo {
+    margin-bottom: 1.5rem !important;
+}
+
+.para8 {
+    color: #18191f;
+}
+
+a.fa.fa-facebook {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+a.fa.fa-facebook:hover {
+    color: #555bb8;
+    text-decoration: none;
+}
+
+a.fa.fa-linkedin {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+a.fa.fa-linkedin:hover {
+    color: #555bb8;
+    text-decoration: none !important;
+}
+
+a.fa.fa-pinterest {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+a.fa.fa-pinterest:hover {
+    color: #555bb8;
+    text-decoration: none !important;
+}
+
+a.fa.fa-twitter {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+a.fa.fa-twitter:hover {
+    color: #555bb8;
+    text-decoration: none !important;
+}
+
+a.fa.fa-youtube {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+a.fa.fa-youtube:hover {
+    color: #555bb8;
+    text-decoration: none !important;
+}
+
+.hding15 {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.MarkersTools {
+    color: #000;
+    padding: .42rem 1rem;
+    font-weight: 500;
+}
+
+.MarkersTools:hover {
+    color: #646bd9;
+    text-decoration: none;
+}
+
+li.MarkerLI {
+    margin: 0 0 10px 0;
+}
+
+.Footerbottom {
+    margin: 30px 0 0 0;
+    border-top: 1px solid #b5b5b5;
+    padding: 30px 0 0;
+    width: 100%;
+}
+
+.termspolicy:hover {
+    text-decoration: none;
+    color: #555bb8;
+}
+
+.termspolicy {
+    font-weight: 500;
+}
+
+.para9 {
+    font-weight: 500;
+}
+
+/* ------------------------------------ Footer css close ------------------------------------ */
+
+
+
+
+/* ------------------------------------ Custom Logo PAGE css open ------------------------------------ */
+
+.Premiumlogoimg {
+    background-image: url(img/premium-logo-bg.png);
+    background-position: center;
+    /* padding: 200px 0; */
+    border-radius: 20px;
+}
+
+.Premiumlogoclor {
+    background-color: #646bd9 !important;
+    border-radius: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.cutomhding {
+    font-size: 47px;
+    color: #fff;
+    margin-bottom: 1.5rem !important;
+    font-weight: 700;
+}
+
+.cutomhding1 {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 1.5rem !important;
+}
+
+.Consultation {
+    background-color: #e78341;
+    border-color: #e78341;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+.Consultation:hover {
+    background-color: #646bd9;
+    border-color: #646bd9;
+    text-decoration: none;
+    color: #fff;
+}
+
+.leeft {
+    padding-left: 35px !important;
+}
+
+.custom-design-mockup {
+    max-width: 100%;
+}
+
+.customcontent1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem}
+
+.customlogosect1 {
+    padding: 30px 0;
+}
+
+.cutomhding2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #646bd9 !important;
+    font-weight: 700;
+}
+
+.custompara {
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.borderline {
+    background-color: #646bd9;
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+img.logo-Portfolio123 {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.logoportfolioimg {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    border-radius: 10px;
+}
+
+.customlogosect4 {
+    margin-top: 25px;
+}
+
+.ViewMore {
+    background-color: #646bd9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem
+}
+
+.ViewMore:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    color: #fff;
+    text-decoration: none;
+    background-color: #555bb8;
+    border-color: #555bb8;
+}
+
+.maindiv6 {
+    padding: 40px 0;
+}
+
+.cutomhding3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.maindiv7 {
+    background-color: #f6faff !important;
+    padding: 60px 30px;
+}
+
+.parentdiv3 {
+    border: 0;
+    background: #f6faff;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 18px 30px;
+}
+
+.para10 {
+    color: #646bd9 !important;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.para10:hover {
+    color: #646bd9;
+    text-decoration: none !important;
+}
+
+.para11 {
+    color: #000 !important;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding: 0 10px 30px;
+}
+
+.anchor1:hover {
+    text-decoration: none;
+}
+
+.SeeMore {
+    color: #646bd9;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+a.SeeMore:hover {
+    color: #646bd9;
+    text-decoration: none;
+}
+
+.parentdiv3:hover {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 20px;
+}
+
+.maindiv8 {
+    margin-top: 20px;
+}
+
+.ViewMore {
+    background-color: #646bd9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem
+}
+
+.EOP {
+    background-color: transparent;
+    color: #646bd9;
+    font-size: 16px;
+    border: 1px solid #646bd9;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem
+}
+
+.EOP:hover {
+    text-decoration: none;
+    color: #646bd9;
+    background-color: #646bd9;
+    color: #fff;
+}
+
+.maindiv10 {
+    margin-top: 40px;
+}
+
+.maindiv11 {
+    padding: 30px 0;
+    margin-top: 40px;
+    background-color: #f6faff !important;
+}
+
+.askexpertimg {
+    text-align: center !important;
+}
+
+.ask-an-expert-boy {
+    max-width: 100%;
+    height: auto;
+    margin-top: -1rem !important;
+}
+
+.customcontent2 {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.cutomhding4 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.PhoneNumbner {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.numner844 {
+    font-size: 14px;
+}
+
+.align-items-center.bg-white.border-0.d-flex.gap-2.p-3.rounded-3 {
+    gap: 5px !important;
+}
+
+/* ------------------------------------ Custom Logo PAGE css close ------------------------------------ */
+
+
+
+/* =============================================== TOOGLE CSS OPEN =============================================== */
+
+.sect12{
+    padding: 30px 0;
+}
+.collapsed {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+    position: relative;
+    padding-left: 48px;
+}
+
+a.collapsed:hover {
+    color: #0056b3;
+    text-decoration: none !important;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+    padding-left: 48px;
+}
+
+div#collapseOne {
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-top: 30px;
+}
+.collapsed::before{
+    content: "";
+    background: url(https://www.logodesign.net/assets/images/icon-panel-collapsed.svg) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18.67px;
+    height: 18.67px;
+    transform: rotate(0);
+}
+
+.panel.panel-default {
+    background: #f6faff;
+    padding: 30px 50px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+div#collapseTwo {
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-top: 30px;
+}
+div#collapseThree {
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-top: 30px;
+}
+div#collapseFour {
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-top: 30px;
+}
+div#collapseFive {
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-top: 30px;
+}
+div#collapseSix {
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-top: 30px;
+}
+div#collapseSeven {
+    padding-bottom: 30px;
+    padding-left: 48px;
+    padding-top: 30px;
+}
+
+.section-title {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.crateee {
+    font-size: 18px;
+    font-weight: 700;
+    /* color: black; */
+}
+
+/* =============================================== TOOGLE CSS close =============================================== */
+
+
+
+/* =============================================== LETTER HEAD page CSS close =============================================== */
+
+.letterheadsect {
+    padding: 30px 0;
+    background-color: #f6faff !important;
+}
+
+.letterheadhding {
+    font-size: 47px;
+    font-weight: 700;
+    color: #333;
+}
+
+.checklist {
+    padding: 0;
+    list-style: none;
+}
+
+.color-secondary {
+    color: #646bd9;
+}
+
+ul.checklist li:not(last-child) {
+    margin-bottom: 8px;
+    list-style: none;
+}
+ul.checklist li {
+    position: relative;
+    padding-left: 20px;
+}
+ul.checklist li::before{
+    content: "";
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background: url(https://www.logodesign.net/assets/images/icon-checklist.svg) no-repeat;
+}
+ul.checklist {
+    padding: 0;
+}
+
+#Letterheadanchor {
+    background-color: #646bd9;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #646bd9;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem
+}
+
+#Letterheadanchor:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    color: #fff;
+    text-decoration: none;
+    background-color: #555bb8;
+    border-color: #555bb8;
+}
+
+
+
+
+
+
+
+
+
+
+
+section.sectbuss2 {
+    padding: 30px 0;
+}
+.card-headerr {
+    background-color: #f6faff;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 110px;
+}
+.card-headerr:hover {
+    background-color: #f6faff;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 110px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;}
+p.color-primary {
+    color: #646bd9 !important;
+    font-weight: 600;
+}
+h2.section-title1 {
+    margin: 0px 0 20px 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.main-clearfix {
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+.letterheadhding1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.para12 {
+    font-size: 16px;
+}
+
+.letterheadsect4 {
+    padding: 20px 0 30px 0;
+}
+
+.premium-cottonimg {
+    width: 100%;
+    height: 160px;
+    border-radius: 20px;
+}
+
+.letterheadhding2 {
+    margin: 10px 0 .5rem 0;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.para14{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.maindiv14 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.letterheadsect5 {
+    padding: 30px 0;
+}
+
+.maindiv15 {
+    padding: 20px 30px;
+    background-color: #f6faff !important;
+    border-radius: 20px !important;
+}
+
+.parentdiv4 {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 15px;
+}
+
+.parentdiv4:hover {
+    transition: all .15s ease-in-out,all .15s ease-in-out;
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+}
+
+.cutomhdinghead {
+    margin: 10px 0 .5rem 10px;
+    padding: 0;
+    font-size: 18px;
+    /* text-align: center; */
+    font-weight: 700;
+}
+
+.para15 {
+    margin: 10px 0 .5rem 10px;
+
+}
+
+.maindiv17 {
+    margin-top: 20px;
+}
+
+.designanchor {
+    color: #646bd9;
+}
+
+.designanchor:hover {
+    color: #646bd9;
+    text-decoration: none;
+}
+
+/* ========================================== LETTER HEAD page CSS close ======================================= */
+
+
+
+
+/* ================================ Social Head Design Code open ================================ */
+
+.SocialHeadersect {
+    padding: 0 0 30px 0;
+    background-color: #f6faff !important;
+}
+
+/* .socialdiv {
+    padding: 40px 0;
+    background-color: #fff;
+} */
+
+.socialhedaerhding {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.maindiv18 {
+    margin: 50px 0 0 0;
+}
+
+.maindiv19 {
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialhedaerhding1 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.par16 {
+    font-weight: 500;
+}
+
+.SocialHeadersect1 {
+    padding: 30px 0;
+    background-color: #f6faff;
+}
+
+.facebook-cover-img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.maindiv20 {
+    padding: 20px 0;
+}
+.socialdiv1 {
+    background-color: #f6faff;
+    padding: 35px 15px;
+    border-radius: 20px;
+}
+.para16 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+}
+.socialdiv1hver:hover{
+    color: #333;
+    text-decoration: none;
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;
+}
+.socialdiv1:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;
+}
+section.SocialHeadersect4 {
+    padding: 0 0 30px 0;
+}
+
+
+/* ================================ Social Head Design Code close ================================ */
+
+
+
+
+
+/* ================================ Mockup Design Code open ================================ */
+
+
+.mockupdesignhdinng {
+    font-size: 47px;
+    font-weight: 700;
+    color: #333;
+}
+
+.mockup-portfolio-img {
+    width: 100%;
+}
+
+.MockupDesignsect1 {
+    padding: 10px 0 30px 0;
+}
+
+.mockupdesignhding {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.mockupdesignhdingimges {
+    width: 100%;
+}
+
+.para17 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+.contentmockup {
+    margin: 45px 0 0 0;
+}
+.MockupDesignsect3 {
+    padding: 30px 0;
+    background-color: #f6faff !important;
+}
+.MockupDesignsect4 {
+    padding: 30px 0;
+    margin-top: 30px;
+    background-color: #f6faff !important;
+}
+
+
+
+
+
+
+
+
+
+.MockupDesignsect5 {
+    padding: 30px 0;
+}
+
+.para18 {
+    margin: 10px 0 .5rem 10px;
+    color: #232f55;
+    font-size: 16px;
+    line-height: 32px;
+}
+img.stariconss {
+    margin: 10px 0 0 10px;
+}
+
+/* ================================ Mockup Design Code close =============================== */
+
+
+
+
+/* ================================ Print Services Code open =============================== */
+
+.printservicesect {
+    padding: 30px 0;
+    background-color: #f6faff !important;
+}
+.printservicediv {
+    background-image: url(img/print-mockup-1.png);
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+/* #maxwidth {
+    max-width: 35% !important;
+} */
+.para19 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+.printservicehding{
+    font-size: 47px;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+}
+.print-mockup-img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.printservicesect1 {
+    padding: 30px 0;
+}
+.print-services-img {
+    max-width: 100%;
+}
+.printservicehding1 {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.para20 {
+    font-size: 16px;
+}
+.printservicediv2 {
+    margin-top: 100px;
+}
+.printservicesect2 {
+    padding: 30px 0;
+    background-color: #f6faff !important;
+}
+#Letterheadanchorprint {
+    color: #646bd9;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#Letterheadanchorprint:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+
+
+
+
+.print-services-4img {
+    width: 100%;
+}
+.printservicesect3 {
+    padding: 30px 0;
+}
+#pdlf {
+    padding: 0 !important;
+}
+
+/* ================================ Print Services Code close =============================== */
+
+
+
+
+/* ================================== Get Domain CSS open ================================== */
+
+
+.www {
+    color: #000;
+    margin: 0;
+    font-size: 18px;
+    line-height: normal;
+    background-color: #fff;
+    border: 0;
+    padding: 14px 20px 14px 8px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: #212529;
+}
+
+.getdomainsect {
+    padding: 30px 0;
+    background-color: #f6faff !important;
+}
+.selectop {
+    color: #000;
+    font-size: 18px;
+    padding: 14px 20px;
+    border: 0;
+    width: auto;
+}
+.domain--mockup-img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+.domain-mockup2 {
+    max-width: 100%;
+    height: auto;
+}
+.domainhding1 {
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+.para21 {
+    font-size: 16px;
+    margin: 0 0 1rem 0;
+    font-weight: 500;
+}
+.domaindiv {
+    margin-top: 80px;
+}
+.getdomainsect1 {
+    padding: 30px 0;
+}
+.domainhding2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+.doaminicondiv123 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.para22 {
+    font-size: 16px;
+    margin: 10px 0 20px 45px;
+    font-weight: 500;
+}
+.getdomainsect2 {
+    padding: 30px 0;
+    background-color: #f6faff !important;
+}
+.para23 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+.color-primary2 {
+    font-size: 18px;
+    color: #646bd9 !important;
+    margin: 10px 0;
+    font-weight: 700;
+}
+.card-headerr2 {
+    background-color: #f6faff;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.card-headerr2:hover {
+    background-color: #f6faff;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+
+/* ================================== Get Domain CSS close ================================== */
+
+
+
+
+
+
+
+/* ================================== Logo Marker CSS open ================================== */
+
+.logomarkersect1 {
+    padding: 30px 0;
+    background-color: #f6faff;
+}
+.logomarkerhding {
+    font-size: 38px;
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+}
+.para24 {
+    text-align: center;
+}
+.logomarkerhding1 {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+    margin: 40px 0 20px 0;
+}
+.para25 {
+    font-size: 16px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 890px;
+}
+.enteryourcn {
+    background-color: #fff;
+    /* width: 220px; */
+    font-size: 16px;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.enteryourcn:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+}
+.logomarkersect2 {
+    padding: 30px 0;
+    background-color: #e7eafb;
+    /* margin: 35px 0; */
+}
+.industrydetails {
+    background-color: #fff;
+    /* width: 220px; */
+    font-size: 16px;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.industrydetails:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+}
+.UPDATE {
+    background-color: #646bd9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 15px 35px;
+    border-radius: .25rem;
+}
+.UPDATE:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    color: #fff;
+    text-decoration: none;
+    background-color: #555bb8;
+    border-color: #555bb8;
+}
+.FILTER {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 15px 35px;
+    border-radius: .25rem;
+}
+.FILTER:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    color: #000;
+    text-decoration: none;
+    /* background-color: #555bb8;
+    border-color: #555bb8; */
+}
+.gallery-filter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+}
+.borderline2 {
+    border-top: 2px solid #646bd9;
+    /* background: black; */
+    /* padding-top: 13px !important; */
+    margin-top: 13px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+div#bderlne {
+    padding: 0 165px !important;
+}
+div#logosecxp {
+    padding: 0 0 0 164px !important;
+}
+.Symbols {
+    background-color: #646bd9;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.Symbols:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    color: #fff;
+    text-decoration: none;
+    background-color: #555bb8;
+    border-color: #555bb8;
+}
+.Alphabetss {
+    background-color: #fff;
+    color: #555bb8;
+    font-size: 13px;
+    font-weight: 300;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+.Alphabetss:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+    color: #fff;
+    text-decoration: none;
+    background-color: #555bb8;
+    border-color: #555bb8;
+}
+
+
+
+
+i#searchmarker {
+    font-size: 13px !important;
+}
+form.example input[type=text] {
+    padding: 10px 10px;
+    font-size: 13px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    float: left;
+    background: #fff;
+}
+  
+  form.example button {
+    float: left;
+    margin-left: -15px;
+    /* width: 20%; */
+    padding: 5px 0;
+    background: #fff;
+    color: #000;
+    font-size: 17px;
+    border: 1px solid #fff;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: transparent;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .maindiv22 {
+    margin: 20px 0 0 0;
+  }
+
+
+
+
+
+
+
+
+
+
+.logomarkersect3 {
+    padding: 30px 0;
+}
+.industry-all-img {
+    max-width: 100%;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+.markerimg {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logomarkersect4 {
+    padding: 30px 0;
+    background-color: #f6faff;
+}
+.logomarkerdiv1 {
+    background-color: #fff;
+    padding: 20px 0;
+}
+.anchormarker:hover {
+    text-decoration: none;
+    color: #333;
+}
+.para26 {
+    margin-top: 50px;
+}
+.para27 {
+    margin-top: 23px;
+}
+.logomarkerdiv1:hover{
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;    
+}
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .markerdivlogo1 {
+    margin-top: 30px;
+  }
+  .markerimg3 {
+    margin: 80px 0 0px 0;
+    width: 100%;
+  }
+  .logomarkerdiv2 {
+    background-color: #fff;
+    padding: 20px 0 135px 0;
+}
+.logomarkerdiv2:hover{
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;    
+}
+.logomarkerdiv3 {
+    background-color: #fff;
+    padding: 20px 0 53px 0;
+}
+.logomarkerdiv3:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;    
+}
+
+
+
+
+
+
+
+
+
+
+.logomarkerhding2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 37px;
+    text-align: center;
+    font-weight: 700;
+}
+.letterheadsect5 {
+    padding: 30px 0;
+}
+
+.maindivloogoomkr {
+    padding: 20px 30px;
+    /* background-color: #f6faff !important; */
+    border-radius: 20px !important;
+}
+.parentdiv7 {
+    background-color: #f6faff;
+    border-radius: 20px;
+    padding: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 15px;
+}
+
+.parentdiv7:hover {
+    transition: all .15s ease-in-out,all .15s ease-in-out;
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12);
+}
+.para29 {
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: left;
+    /* height: 210px; */
+
+}
+
+
+
+
+
+
+
+.logomarkersect5 {
+    padding: 40px 0 40px 0;
+    background-color: #f6faff;
+}
+p.crateeeee {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.Slectalogo {
+    background-color: #5056ae;
+    padding: 16px 32px;
+    font-weight: 400;
+    border-radius: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.Slectalogo:hover {
+    text-decoration: none;
+    background-color: #646bd9;
+    color: #fff;
+    transition: 0.5s;
+}
+.logotop {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+.dot-list {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.dot-list li a {
+    color: #646bd9;
+    font-weight: 400;
+}
+.dot-list li a:hover {
+    text-decoration: none;
+    color: #3944e0;
+}
+.dot-list li {
+    padding-bottom: 12px;
+}
+::marker {
+    color: #c4c4c4 !important;
+}
+section.logomarkersect6 {
+    padding: 30px 0;
+}
+
+
+
+/* ================================== Logo Marker CSS close ================================== */
+
+
+
+
+/* ================================== FAQ CSS open ================================== */
+
+.faqsect1 {
+    padding: 30px 0;
+}
+.fa1hading1 {
+    font-size: 26px;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    color: #333;
+}
+.fagpara {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+.faqdiv1 {
+    margin-top: 20px;
+}
+
+/* ================================== FAQ CSS close ================================== */
+
+
+/* ================================== About Us CSS open ================================== */
+
+.sectionaboutus {
+    padding: 30px 0;
+}
+
+.aboutsect2 {
+    padding: 30px 0;
+    background-color: rgb(100 107 217 / 95%) !important;
+}
+.Abouthading {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.divpara p {
+    color: #fff;
+    font-size: 16px;
+}
+.aboutsect3 {
+    padding: 40px 0;
+}
+.avatar-image img {
+    width: 20%;
+}
+.aboutsect4 {
+    padding: 30px 0;
+    background-color: rgb(100 107 217 / 40%) !important;
+}
+
+.sect4abt li {
+    list-style: none !important;
+}
+ul.columns.list-inline.clearfix {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.img-1 {
+    background-color: #ffad01;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-2 {
+    background-color: #3a2647;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-3 {
+    background-color: #9f907d;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-4 {
+    background-color: #073c4a;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-5 {
+    background-color: #33c6f4;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-6 {
+    background-color: #202332;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-7 {
+    background-color: #ededed;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-8 {
+    background-color: #2c2220;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-9 {
+    background-color: #e8421c;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.img-10 {
+    background-color: #091f36;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+
+.aboutsect5 {
+    padding: 30px 0;
+}
+
+ul.list-inline.text-center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 45px;
+    margin: 0 0 30px 0;
+}
+.what-we-offer ul li:first-child span {
+    background-color: #646bd9;
+}
+.what-we-offer ul span {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    background-color: #d95459;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px 10px;
+}
+.what-we-offer ul li:last-child span {
+    background-color: #00afb1;
+}
+.aboutpara1 {
+    font-size: 16px;
+}
+
+
+.Footerbottom1 {
+    margin: 30px 0 0 0;
+    border-top: 1px solid #b5b5b5;
+    padding: 30px 0 0;
+    width: 100%;
+}
+
+/* ================================== About Us CSS close ================================== */
+
+
+/* ================================== How it Works CSS open ================================== */
+
+.howitworkssect {
+    padding: 30px 0 50px 0;
+}
+.how-it-work-img {
+    max-width: 100%;
+}
+.howpara{
+    font-size: 16px;
+}
+.step-1img {
+    max-width: 100%;
+}
+.family {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400 !important;
+}
+.howworkshding {
+    font-size: 37px;
+    font-weight: 700;
+    margin: 0;
+}
+.slelctclor {
+    color: #da5050;
+    margin: 0;
+}
+.howpara1 {
+    font-size: 16px;
+    margin: 15px 0 0 0;
+}
+.howcontent {
+    display: flex;
+    align-items: center;
+}
+.howcontentmain {
+    margin-top: 20%;
+}
+.howitworksdiv {
+    margin-top: 20px;
+}
+#plml {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.howpara2 {
+    margin: 20px 0;
+    font-size: 16px;
+}
+/* ================================== How it Works CSS close ================================== */
+
+
+
+
+/* ================================== Site Map CSS open ================================== */
+
+.sitemapsect {
+    padding: 30px 0;
+}
+.sitemaphding {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    columns: #333;
+}
+.sitemaphding1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.sitemaphding2 {
+    color: #646bd9;
+    font-size: 16px;
+}
+.sitemaphding2:hover {
+    text-decoration: none;
+    color: #5056ae;
+}
+.designtoolmap {
+    padding: 0;
+}
+.designtoolmap li {
+    margin-left: 21px;
+}
+.designtoolmap li::before {
+    content: "\2022";
+    color: #f68933;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.7em;
+    margin-left: -1em;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.sitemapdiv {
+    margin-top: 40px;
+}
+.sitemapmain2 {
+    margin-top: 30px;
+}
+
+/* ================================== Site Map CSS close ================================== */
+
+
+
+
+/* ================================== Conatct Us CSS open ================================== */
+
+.contactushding {
+    color: #333;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+.contactuspara {
+    font-size: 16px;
+    color: black;
+}
+.contactussect {
+    padding: 30px 0;
+}
+.contatcusdiv {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.contactushding1 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+}
+#facall {
+    font-size: 17px;
+    background-color: #7a7d84;
+    color: #fff;
+    /* width: 36px;
+    height: 36px; */
+    border-radius: 50%;
+    padding: 12px 14px;
+}
+.callnum {
+    font-size: 16px;
+    margin-left: 14px;
+}
+.calldivus {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.contactussect1 {
+    padding: 30px 0 50px 0;
+}
+
+/* ================================== Conatct Us CSS close ================================== */
+
+
+
+/* ================================== Logo Quiz CSS open ================================== */
+
+.logoquizsect {
+    background-color: #646bd9 !important;
+    padding: 30px 0;
+}
+.logoquizhding {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+.logoquizhding1 {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 700;
+}
+.logoquizdiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logoquizmain {
+    border-bottom: 1px solid #8b8b8b;
+    margin-top: 40px;
+}
+.logoquizmain:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;
+    transition: all .15s ease-in-out,all .15s ease-in-out !important;
+}
+
+/* ================================== Logo Quiz CSS close ================================== */
+
+
+
+
+
+/* ================================== Media CSS open ================================== */
+
+.Mediasect {
+    padding: 50px 0;
+}
+.Mediahding {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    font-weight: 700;
+    text-align: left;
+}
+.Mediahding1 {
+    font-size: 16px;
+    color: #646bd9;
+    font-weight: 400;
+}
+.Mediahding1:hover {
+    color: #000;
+}
+.Mediamain {
+    margin-bottom: 20px;
+}
+.Mediadiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #8b8b8b;
+    /* margin-top: 100px; */
+}
+
+.bordermedia {
+    /* border-bottom: 1px solid #8b8b8b; */
+    margin-bottom: 30px !important;
+}
+.mediaimg123 {
+    border-radius: 10px;
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;
+    padding: 8px 0;
+    margin-bottom: 30px;
+}
+
+/* ================================== Media CSS close ================================== */
+
+
+/* ================================== Insights CSS open ================================== */
+
+.insightsect {
+    padding: 50px 0 30px 0;
+}
+.election-day-img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.insightsmain {
+    padding: 0 0 20px 0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #b5b5b5 !important;
+}
+.insightsmain:hover {
+    box-shadow: 13px 13px 26px rgba(0,0,0,.12) !important;
+    transition: all .15s ease-in-out,all .15s ease-in-out !important;
+}
+.insighthding {
+    font-size: 27px;
+    font-weight: 700;
+    padding: 5px 25px;
+}
+.insightspara {
+    padding: 5px 25px;
+    font-size: 16px;
+}
+
+
+/* ================================== Insights CSS close ================================== */
+
+
+/* ================================== Scholarship CSS open ================================== */
+
+.Scholarshippara {
+    font-size: 16px;
+}
+.scholarshiphding {
+    font-size: 15px;
+    font-weight: 700;
+}
+.list-style-circle {
+    padding: 0 !important;
+    list-style: outside;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.list-style-circle li::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+
+}
+.termscondi {
+    /* font-size: 16px; */
+    color: #0056b3;
+}
+.termscondi:hover {
+    color: #000;
+}
+
+/* ================================== Scholarship CSS close ================================== */
+
+
+/* ================================== Logo Design Tutorials CSS open ================================== */
+
+.LogoDesignhding {
+    font-size: 47px;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    color: #333;
+}
+.riseimg {
+    max-width: 100%;
+}
+.LogoDesignndiv2 {
+    background-color: #19c399;
+    padding: 20px;
+}
+div.blog-date {
+    margin: -25px auto 0 auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 21px;
+    font-size: 12.5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 70px;
+    height: 70px;
+    padding: 15px 0 0 0;
+    border-radius: 50%;
+    vertical-align: unset;
+}
+.LogoDesignhding1 {
+    color: #3e4455;
+    font-size: 22px;
+    line-height: 31px;
+    top: -30%;
+    font-weight: 700;
+}
+.LogoDesignpara {
+    font-size: 16px;
+    color: #333;
+    padding: 0 10px;
+}
+.LogoDesignndiv1 {
+    border: 1px solid #dbe1f1;
+    padding: 0 0 20px 0;
+}
+
+
+
+
+
+
+.termhding {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.termspara {
+    font-size: 16px;
+}
+.contenttermcodi {
+    padding: 0;
+    list-style: none;
+}
+.contenttermcodi2 {
+    padding: 0;
+    list-style: none;
+    /* margin-bottom: 10px; */
+}
+.contenttermcodi2 li {
+    padding-bottom: 10px;
+}
+
+.indexpage {
+    color: #646bd9;
+}
+.indexpage:hover {
+    text-decoration: none;
+    color: #000;
+}
+.terms-condition-sect {
+    padding: 30px 0;
+}
+/* ================================== Logo Design Tutorials CSS close ================================== */
